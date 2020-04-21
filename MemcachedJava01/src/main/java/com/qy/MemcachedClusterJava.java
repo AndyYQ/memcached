@@ -7,6 +7,7 @@ import java.util.Map;
 public class MemcachedClusterJava {
     public static void main(String[] args) throws Exception{
         List<String> servers = new ArrayList<>();
+        // 注意集群顺序
         servers.add("192.168.245.132:11211");
         servers.add("192.168.245.132:11212");
         servers.add("192.168.245.132:11213");
