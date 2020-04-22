@@ -1,0 +1,14 @@
+memcache:
+  servers:
+    - 192.168.245.132:11211
+    - 192.168.245.132:11212
+    - 192.168.245.132:11213
+  failover: true
+  initConn: 100
+  minConn: 20
+  maxConn: 1000
+  maintSleep: 50
+  nagel: false
+  socketTO: 3000
+  aliveCheck: true
+
